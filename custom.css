@@ -7,3 +7,31 @@
     float: left;
 }
 
+.centre-title {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    align-items: left;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 2rem;
+}
+
+.nav-list li:last-child {
+    margin-right: 0;
+}
+
+.copyright {
+    text-align: right;
+}
