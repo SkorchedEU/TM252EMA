@@ -13,7 +13,6 @@
 }
 
 .search-nav {
-    align-items: right;
     text-align: right;
 }
 
@@ -36,7 +35,7 @@
         }
 
 .top-nav {
-    background-color: grey;
+    background-color: #6e6e6e;
     background-blend-mode: darken;
     background-size: cover;
     color: white;
@@ -54,7 +53,6 @@
 .navbar {
     display: flex;
     position: sticky;
-    align-items: left;
     justify-content: space-between;
     padding: 5rem 10rem;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>Edumax - Edit News</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="./custom.css" />
@@ -36,46 +37,46 @@
 			<h1 class="centre-title">Current News Item State</h1>
 			<form>
 				<div class="form-group">
-					<label name="subject">Subject:</label><br />
+					<label for="subject">Subject:</label><br />
 					<input
 						type="text"
 						class="form-control"
-						id="subject"
+						id="subjectold"
 						name="subject"
 						placeholder="Old Subject Here"
 					/><br />
 				</div>
 				<div class="form-group">
-					<label name="content">Content:</label><br />
+					<label>Content:</label><br />
 					<textarea class="form-control">Old Content here</textarea><br />
 				</div>
 				<div class="form-group">
-					<label name="name">Full Name:</label><br />
+					<label for="name">Full Name:</label><br />
 					<input
 						type="text"
 						class="form-control"
-						id="name"
+						id="nameold"
 						name="name"
 						placeholder="Old Name Here"
 					/><br />
 				</div>
 
 				<div class="form-group">
-					<label name="firstshowing">Date for First Showing:</label><br />
+					<label for="firstshowing">Date for First Showing:</label><br />
 					<input
 						type="text"
 						class="form-control"
-						id="firstshowing"
+						id="firstshowingold"
 						name="firstshowing"
 						placeholder="17/09/2025"
 					/><br />
 				</div>
 				<div class="form-group">
-					<label name="lastshowing">Date for Last Showing:</label><br />
+					<label for="lastshowing">Date for Last Showing:</label><br />
 					<input
 						type="text"
 						class="form-control"
-						id="lastshowing"
+						id="lastshowingold"
 						name="lastshowing"
 						placeholder="31/12/2025"
 					/><br />
@@ -85,11 +86,11 @@
 		<div class="form-right">
 			<h1 class="centre-title">Updated News Item State</h1>
 			<form
-				action="https://students.open.ac.uk/ mct/ tm252/ reflect/ reflect.php"
+				action="https://students.open.ac.uk/mct/tm252/reflect/reflect.php"
 				method="post"
 			>
 				<div class="form-group">
-					<label name="subject">Subject:</label><br />
+					<label for="subject">Subject:</label><br />
 					<input
 						type="text"
 						class="form-control"
@@ -98,14 +99,14 @@
 						placeholder="TM252 Tutorial Cancelled"
 					/><br />
 				</div>
-				<input type="hidden" itemid="10002000-3000-123456abcdef" />
+				<input type="hidden" name="itemID" value="10002000-3000-123456abcdef" />
 				<div class="form-group">
-					<label name="content">Content:</label><br />
+					<label>Content:</label><br />
 					<textarea class="form-control">Your content should go here!</textarea
 					><br />
 				</div>
 				<div class="form-group">
-					<label name="name">Full Name:</label><br />
+					<label for="name">Full Name:</label><br />
 					<input
 						type="text"
 						class="form-control"
@@ -116,7 +117,7 @@
 				</div>
 
 				<div class="form-group">
-					<label name="firstshowing">Date for First Showing:</label><br />
+					<label for="firstshowing">Date for First Showing:</label><br />
 					<input
 						type="date"
 						class="form-control"
@@ -125,7 +126,7 @@
 					/><br />
 				</div>
 				<div class="form-group">
-					<label name="lastshowing">Date for Last Showing:</label><br />
+					<label for="lastshowing">Date for Last Showing:</label><br />
 					<input
 						type="date"
 						class="form-control"
