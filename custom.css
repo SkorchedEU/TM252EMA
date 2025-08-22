@@ -1,3 +1,4 @@
+@media only screen and (min-width: 992px){
 .form-right{
     width: 45%;
     float: right;
@@ -6,7 +7,7 @@
     width: 45%;
     float: left;
 }
-
+}
 .centre-title {
     text-align: center;
 }
@@ -24,6 +25,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease-in-out;
+            margin-right: 2rem;
         }
 
 #search {
@@ -38,6 +40,9 @@
     background-blend-mode: darken;
     background-size: cover;
     color: white;
+}
+@media only screen and (min-width: 992px){
+.top-nav {
     display: flex;
     position: sticky;
     align-items: center;
@@ -53,7 +58,7 @@
     justify-content: space-between;
     padding: 5rem 10rem;
 }
-
+}
 .nav-list-top {
     display: flex;
     list-style: none;
@@ -82,6 +87,7 @@
 
 .copyright {
     text-align: right;
+    margin-right: 2rem;
 }
 .nav-list-top li a{
     text-decoration: none;
